@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{ 
+string str="Hello";
+string str1="World";
+ cout<<str<<endl;
+ cout<<str1<<endl;
+  cout<<"After joinng the strings:"<<strcat(str,str1);
+	 return 0;
+	 
+}

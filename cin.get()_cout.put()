@@ -1,0 +1,21 @@
+#include<iostream>
+//#include<>
+#include<string>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+	
+	 
+char ch;
+   
+cout<<"ENTER 1 charachter:";
+cin.get(ch);
+cout.put(ch);
+return 0;
+}
+
+
+cin.get() will take the input as "a charachter" and cout.put() will give the output as a charachter.

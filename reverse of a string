@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+ 
+char ch[8];
+cout<<"Enter the string:";
+gets(ch);
+cout<<"Reverse of the string is:";
+cout<<strrev(ch);
+
+	 return 0;
+}

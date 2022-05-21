@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+ 
+char ch[8];
+cout<<"Enter the string:";
+gets(ch);
+char str[98];
+cout<<"Enter the string:";
+gets(str);
+cout<<"AFTER JOINING THE STRINGS:"<<strcat(ch,str);
+
+	 return 0;
+}
